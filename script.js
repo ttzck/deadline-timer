@@ -16,7 +16,7 @@ document.getElementById("startText").innerHTML = `the project started on ${start
 document.getElementById("endText").innerHTML = `the deadline is ${end.toDateString()}`
 document.getElementById("countdownText").innerHTML = `${daysLeft} days`
 document.getElementById("calendar").innerHTML 
-= "■".repeat(daysPassed) 
-+ "▣"
-+ "□".repeat(daysLeft - 1)
+= Array(daysPassed).fill("■").join(" ")
++ " ▣ "
++ Array(daysLeft - 1).fill("□").join(" ")
 
