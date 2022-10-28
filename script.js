@@ -14,7 +14,7 @@ const daysLeft = Math.floor(left / 1000.0 / 60.0 / 60.0 / 24.0) + 1
 
 document.getElementById("startText").innerHTML = `the project started on ${start.toDateString()}`
 document.getElementById("endText").innerHTML = `the deadline is ${end.toDateString()}`
-document.getElementById("countdownText").innerHTML = `<b>${daysLeft}</b> days`
+document.getElementById("countdownText").innerHTML = `<nobr><b>${daysLeft}</b> days</nobr>`
 document.getElementById("calendar").innerHTML 
 = Array(daysPassed).fill("■").join(" ")
 + " ▣ "
