@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 .full-center-screen {
     display: flex;
@@ -16,9 +16,10 @@
 body {
     background-color: rgb(10, 10, 10);
     color: whitesmoke;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     align-items: center;
     text-align: center;
     justify-content: center;
     display: flex;
+    word-wrap: break-word
 }
