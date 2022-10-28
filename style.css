@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.full-center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.center-screen {
+    max-width: 320px;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
